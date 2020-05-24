@@ -9,7 +9,8 @@ import linpdeconfig
 from torch.autograd import Variable
 from pltutils import *
 
-configfile = 'checkpoint/'+'linpde7x7moment4order0.015dt0.015noise-double'+'/options.yaml'
+# configfile = 'checkpoint/'+'linpde7x7moment4order0.015dt0.015noise-double'+'/options.yaml'
+configfile = 'checkpoint/'+'linpde-test-1283816226'+'/options.yaml'
 
 options = linpdeconfig.setoptions(configfile=configfile,isload=True)
 

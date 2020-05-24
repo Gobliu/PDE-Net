@@ -8,6 +8,7 @@ import torchvision
 import pdedata
 import linpdeconfig
 
+print(sys.argv)
 configfile = 'checkpoint/'+sys.argv[1]+'/options.yaml'
 
 options = linpdeconfig.setoptions(configfile=configfile,isload=True)
